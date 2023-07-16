@@ -10,8 +10,8 @@ const Projects = () => {
       <div className="projects__menu">
         <ul>
           {projects.projects.map((item) => (
-            <li key={item.title} className="flex flex-col lg:flex-row mt-12">
-              <div className="lg:w-1/3">
+            <li key={item.title} className="flex flex-col lg:flex-row mt-12 sm:items-center">
+              <div className="w-2/5">
                 <h2 className="text-2xl">
                   {item.title}
                 </h2>
@@ -37,7 +37,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="lg:ml-12">
+              <div className="lg:ml-12 w-3/5">
                 <Image 
                   src={item.image} 
                   alt="project image" 
