@@ -15,7 +15,7 @@
 	],
   "hero": {
     "name": "Robert Fernald",
-    "subtitle": "placeholder."
+    "subtitle": ""
   },
   "about": {
     "title": "About me",
@@ -31,14 +31,14 @@
         "description": "Used p5.js to create an interactive blackhole simulation. Used approximated physics constants and formulas.",
         "url": "https://editor.p5js.org/fernaldr/full/f8RoaoTEq",
         "github": "https://github.com/fernaldr/blackholeSimuation",
-        "image": "/placeholder-700x350.png"
+        "image": "/blackhole_cover.png"
       },
       {
 				"title": "React TicTacToe",
 				"description": "Created TicTacToe game using React, added more features..?.",
 				"url": "",
         "github": "https://github.com/fernaldr/ReactTicTacToe",
-				"image": "/placeholder-700x350.png"
+				"image": "/tictactoe_cover.png"
 			}
     ]
   },
